@@ -680,7 +680,6 @@ function dibujarHangar(): void {
     if (entregaGuiadaActiva()) {
         screen.fillRect(0, 98, 160, 10, COLOR_AZUL)
         screen.fillRect(0, 98, 6, 10, COLOR_AMARILLO)
-        imprimirTextoJuego(Textos.t(286), 1, 101, COLOR_FONDO)
         imprimirTextoJuego(textoCortoPantalla(nombreEtapaTutorial(), 25), 8, 101, COLOR_AMARILLO)
     }
     if (confirmacionAbierta) {
